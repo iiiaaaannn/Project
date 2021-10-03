@@ -1,0 +1,94 @@
+    {
+        box-sizing: border-box;
+        outline: 1px solid red;
+    }
+    .text-header{
+        text-align: center;
+        font-family: oswald;
+        font-size: 25px;
+        margin: auto 17rem 1rem 17rem;
+        color: white;
+        }
+
+     .background{
+    background-image: linear-gradient(rgba(189, 25, 25, 0.753), rgba(185, 182, 8, 0.678));
+
+     }
+
+     .logo-allign{
+         margin: 0 10px;
+         width: 3rem;
+     }
+     .logo-ig {
+         width: 2.5rem;
+         margin: 0 10px;
+     }
+
+     .box{
+        font-family: oswald;
+        margin: auto 17rem 3rem 17rem;
+        background-color: whitesmoke;
+        border-radius: 1rem;
+     }
+
+     .box2{
+        margin: 0px 5rem auto 5rem;
+     }
+     .ars{
+        width: 350px;
+        height:40px;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 55px;
+        vertical-align: top;
+    }
+    .table-text-center {
+        text-align: center;
+        font-weight:bold;
+    }
+
+    td{
+        font-size: 20px;
+    }
+    .reference {
+        text-decoration: none; 
+        color: rgb(12, 51, 12);
+    }
+    .grow { 
+        transition: all .2s ease-in-out; 
+        } 
+    .grow:hover { 
+        transform: scale(1.05); 
+        }
+    
+    .grow2 { 
+        transition: all .2s ease-in-out; 
+        } 
+    .grow2:hover { 
+        transform: scale(1.1); 
+        }
+
+    .image-class {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .form-style {
+        color: gray; 
+        font-family: oswald;
+        border-radius: .5rem;
+        background-color: rgb(226, 226, 226);
+        border: none;
+        text-indent: 5px;
+        font-size: larger;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .submit-class {
+        border: none;
+        font-family: oswald;
+        min-width: 10%;
+        border-radius: .5rem;
+        background-color: rgba(233, 229, 19, 0.911);
+        height: 30px;
+    }
