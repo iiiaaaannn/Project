@@ -1,6 +1,6 @@
-    {
+    *{
         box-sizing: border-box;
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
     }
     .text-header{
         text-align: center;
@@ -11,7 +11,7 @@
         }
 
      .background{
-    background-image: linear-gradient(rgba(189, 25, 25, 0.753), rgba(185, 182, 8, 0.678));
+         background-image: linear-gradient(rgba(189, 25, 25, 0.753), rgba(185, 182, 8, 0.678));
 
      }
 
@@ -34,13 +34,16 @@
      .box2{
         margin: 0px 5rem auto 5rem;
      }
-     .ars{
-        width: 350px;
-        height:40px;
-        font-size: 20px;
+     .heading-right{
+        text-align: right;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .heading-left{
         text-align: left;
-        padding-left: 55px;
-        vertical-align: top;
+        font-size: 40px;
+        font-weight: bolder;
     }
     .table-text-center {
         text-align: center;
@@ -69,7 +72,7 @@
         }
 
     .image-class {
-        min-width: 100%;
+        min-width: 90%;
         max-width: 100%;
     }
     .form-style {
