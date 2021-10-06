@@ -27,7 +27,7 @@
      .box{
         font-family: oswald;
         margin: auto 17rem 3rem 17rem;
-        background-color: whitesmoke;
+        background-color: white;
         border-radius: 1rem;
      }
 
@@ -82,9 +82,23 @@
         background-color: rgb(226, 226, 226);
         border: none;
         text-indent: 5px;
-        font-size: larger;
+        font-size: large;
         min-width: 100%;
         max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form-style2 {
+        color: gray; 
+        font-family: oswald;
+        border-radius: .5rem;
+        background-color: rgb(226, 226, 226);
+        border: none;
+        text-indent: 5px;
+        font-size: small;
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
     }
 
     .submit-class {
@@ -95,3 +109,24 @@
         background-color: rgba(233, 229, 19, 0.911);
         height: 30px;
     }
+
+    .img {
+        float: center;
+        max-width: 100%;
+        background-size: cover;
+    }
+
+    div.gallery {
+        margin: 5px;
+        float: left;
+        width: 180px;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
